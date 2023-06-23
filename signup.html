@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+</head>
+<style>
+.box{
+            height:600px;
+            width:500px;
+            border:2px solid brown;
+            margin:auto;
+            margin-top:5%;
+            background-color:black;
+            color:white;
+            border-radius: 15%;
+            text-align:left;
+}
+input[type=text], input[type=password], input[type=date], input[type=email] {
+  width:30%;
+  padding: 3px;
+  margin: 5px 0 10px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+btn {
+    background-color:blue;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .btn:hover {opacity: 1}
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/106/276/small/geometric-black-and-gold-background-free-vector.jpg);
+    background-size:cover ;
+} 
+  </style>    
+</head>
+<body>
+        <div class="box">
+            <form onsubmit="return func()">
+                <center>
+                <h1>Sign Up</h1>
+                <hr>
+            <p>First name:<input  type="text" id="first name" name="first name" placeholder="Enter your first name" required><br>
+            <p>Last name:<input  type="text"id="last name" name="last name" placeholder="Enter your last name" required></p>
+            <select align="center" name="gender" id="gender" >
+                <option value="">select your gender</option>
+                <option value="female">female</option>
+                <option value="male">male</option>
+              </select> 
+             <p>DOB:<input  type="date"id="DOB" name="DOB" placeholder="Enter your first name " required></p>
+            <p>PH NO:<input  type="text" id="phonenumber" name="phonenumber"placeholder="Enter your phone number"required></p>
+            <p>Email:<input type="email"id="first" name="first" placeholder="Enter your email" required></p>
+           <p>password: <input type="password" id="pwd" name="pwd" placeholder="Enter your password" title="Invalid Input, it must contain 8 or more characters that are of at least one number, and one uppercase and lowercase letter and one symbol" required></p>
+           <p>confirm PSW :<input  type="password" id="cpwd" name="first name" placeholder="Enter your password"  required></p> 
+    <div id="kar"></div>
+    <input type="submit" value="signup" id="submit">
+</center>
+</form>
+</div>
+<script src="signup.js"></script>
+</body>
+</html>

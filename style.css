@@ -1,0 +1,91 @@
+body{
+    background-image: url("http://getwallpapers.com/wallpaper/full/6/2/1/1057098-cool-nature-backgrounds-2262x1504-for-windows-7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+.logo{
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    color:red;
+    margin-left: 20px;
+    
+}
+.content{
+    margin-top:0px;
+    color: bisque;
+    padding:200px;
+}
+input[type=text],select,textarea{
+    width: 30%;
+    height:30px;
+    padding:12px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+
+}
+input[type=submit]{
+    background-color: azure;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer;
+}
+input[type=submit]:hover {
+    background-color: green;
+
+}
+.login{
+    border-radius: 1px;
+    background-color:white;
+    padding: 10px;
+
+
+}
+body
+    {
+       
+        animation:change 4.3s ease infinite;
+    }
+    
+@keyframes change
+{
+    0%
+    {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvwlToF0MLrURYfTBBZAQGm-wqnuBaRTyxmnWoL6XlTg&s);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    25%
+    {
+        background-image: url(https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    50%
+    {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUT2xR5y6t9qDWrl0i-oA6P4eonA50f5bDFwJc_UZx5A&s);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    75%
+    {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvA8rK6_9bYo4YihWR-4jyR06DFmYkFdAGxd4hofnT3Q&s);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%
+    {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvwlToF0MLrURYfTBBZAQGm-wqnuBaRTyxmnWoL6XlTg&s);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}

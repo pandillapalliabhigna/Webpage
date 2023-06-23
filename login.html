@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to the page</title>  
+    <link rel="stylesheet" href="login.css">
+</head>
+<style>
+    body{
+    background-image: url("https://www.shutterstock.com/image-photo/high-mountain-morning-time-beautiful-260nw-1384588922.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+  #message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+input[type=text],select,textarea{
+    width: 30%;
+    height:30px;
+    padding:12px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+
+}
+input[type=submit]{
+    background-color: grey;
+    color:white;
+    padding: 12px 12px;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+}
+input[type=submit]:hover {
+    background-color: green;
+
+}
+
+</style>
+<body>
+    <div class="login">
+        <form action="shopping.html">
+            <center>
+                <label for="Username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter the Username">
+            </center>
+            <br>
+            <center>
+                <label for="Password">Password</label>
+                <input type="text" id="Password" name="Password" placeholder="Enter the Password"pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number,one uppercase,lowercase letter,symbol, and at least 8 or more characters" required>
+            </center>
+            <br>
+    </div>
+    <center>
+        <a ref=""><input type="Submit" value="Login"></a>
+    </center>
+    </form>
+    <div id="message">
+        <h3>Password must contain the following:</h3>
+        <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+        <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+        <p id="number" class="invalid">A <b>number</b></p>
+        <p id="symbol" class="invalid">A <b>symbol</p></p>
+        <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+      </div>
+    
+</body>
+</html>
